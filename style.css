@@ -1,0 +1,84 @@
+* {
+  font-family: Montserrat !important;
+}
+
+.mindiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 200px;
+  border-radius: 15px;
+  padding: 30px 20px;
+  background-color: #b74973;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: white;
+}
+
+.bottomDiv,
+.topDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button1,
+.button2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.btnsConatainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.button1Container,
+.button2Container {
+  width: 100%;
+}
+
+.bt3,
+.bt4 {
+  width: 100% !important;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #e74e88;
+  color: #f3f3f3;
+}
+
+.bt4 {
+  border: 2px solid #f3f3f3;
+  background-color: #f3f3f3;
+  color: #212121;
+}
+
+.topDiv h3 {
+  margin: 0px !important;
+}
+
+.topDiv h2 {
+  margin-bottom: 5px !important;
+}
+
+.gapDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+
+.btnsConatainer h6 {
+  margin-bottom: 0px !important;
+}
